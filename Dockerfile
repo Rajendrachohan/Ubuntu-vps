@@ -1,5 +1,5 @@
 # Use the official Ubuntu image as a base
-FROM ubuntu:latest
+FROM rancher/windows_exporter-package:v0.0.3-windows-ltsc2022
 
 # Update package lists and install necessary packages
 RUN apt-get update && apt-get install -y \
